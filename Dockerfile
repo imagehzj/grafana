@@ -2,7 +2,7 @@ FROM ttbb/base
 
 WORKDIR /opt/sh
 
-ARG version=8.5.1
+ARG version=9.0.0
 ARG TARGETARCH
 
 RUN wget https://dl.grafana.com/oss/release/grafana-$version.linux-$TARGETARCH.tar.gz && \
